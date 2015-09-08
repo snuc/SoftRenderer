@@ -1,0 +1,66 @@
+﻿生成启动时间为 2015/9/7 18:03:10。
+     1>项目“D:\Changda_SoftRenderer\SoftRenderer\SoftRenderer.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         F:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"F:\Program Files (x86)\Visual Leak Detector\include" /Zi /nologo /W3 /WX- /sdl /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _WINDOWS /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Release\SoftRenderer.pch" /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt GameObject.cpp RenderList.cpp Renderer.cpp SoftRenderer.cpp
+         GameObject.cpp
+     1>d:\changda_softrenderer\softrenderer\ColourValue.h(58): warning C4172: 返回局部变量或临时变量的地址
+         RenderList.cpp
+     1>d:\changda_softrenderer\softrenderer\ColourValue.h(58): warning C4172: 返回局部变量或临时变量的地址
+     1>RenderList.cpp(377): warning C4101: “r_base”: 未引用的局部变量
+     1>RenderList.cpp(377): warning C4101: “b_base”: 未引用的局部变量
+     1>RenderList.cpp(377): warning C4101: “g_base”: 未引用的局部变量
+     1>RenderList.cpp(470): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+     1>RenderList.cpp(471): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+         Renderer.cpp
+     1>d:\changda_softrenderer\softrenderer\ColourValue.h(58): warning C4172: 返回局部变量或临时变量的地址
+     1>Renderer.cpp(695): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+     1>Renderer.cpp(701): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+     1>Renderer.cpp(707): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+     1>Renderer.cpp(714): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+     1>Renderer.cpp(735): warning C4244: “参数”: 从“float”转换到“int”，可能丢失数据
+     1>Renderer.cpp(738): warning C4244: “参数”: 从“float”转换到“int”，可能丢失数据
+     1>Renderer.cpp(743): warning C4244: “参数”: 从“float”转换到“int”，可能丢失数据
+     1>Renderer.cpp(746): warning C4244: “参数”: 从“float”转换到“int”，可能丢失数据
+     1>Renderer.cpp(815): warning C4244: “=”: 从“float”转换到“int”，可能丢失数据
+     1>Renderer.cpp(816): warning C4244: “=”: 从“float”转换到“int”，可能丢失数据
+     1>Renderer.cpp(903): warning C4244: “=”: 从“float”转换到“int”，可能丢失数据
+     1>Renderer.cpp(904): warning C4244: “=”: 从“float”转换到“int”，可能丢失数据
+     1>Renderer.cpp(1023): warning C4244: “=”: 从“float”转换到“int”，可能丢失数据
+     1>Renderer.cpp(1024): warning C4244: “=”: 从“float”转换到“int”，可能丢失数据
+     1>Renderer.cpp(1025): warning C4244: “=”: 从“float”转换到“int”，可能丢失数据
+     1>Renderer.cpp(1088): warning C4244: “=”: 从“float”转换到“int”，可能丢失数据
+     1>Renderer.cpp(1089): warning C4244: “=”: 从“float”转换到“int”，可能丢失数据
+     1>Renderer.cpp(1109): warning C4244: “参数”: 从“int”转换到“float”，可能丢失数据
+     1>Renderer.cpp(1114): warning C4244: “参数”: 从“int”转换到“float”，可能丢失数据
+     1>Renderer.cpp(1122): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+     1>Renderer.cpp(1126): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+     1>Renderer.cpp(1130): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+         SoftRenderer.cpp
+     1>d:\changda_softrenderer\softrenderer\ColourValue.h(58): warning C4172: 返回局部变量或临时变量的地址
+       Link:
+         F:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Changda_SoftRenderer\Release\SoftRenderer.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:"F:\Program Files (x86)\Visual Leak Detector\lib\Win32" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\Changda_SoftRenderer\Release\SoftRenderer.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\Changda_SoftRenderer\Release\SoftRenderer.lib" /MACHINE:X86 /SAFESEH Release\SoftRenderer.res
+         Release\BitMap.obj
+         Release\Camera.obj
+         Release\ColourValue.obj
+         Release\GameObject.obj
+         Release\Light.obj
+         Release\Matrix3.obj
+         Release\Matrix4.obj
+         Release\Polygon.obj
+         Release\Quaternion.obj
+         Release\Renderer.obj
+         Release\RenderList.obj
+         Release\SoftRenderer.obj
+         Release\stdafx.obj
+         Release\Vector2.obj
+         Release\Vector3.obj
+         Release\Vector4.obj
+         Release\Vertex.obj
+         正在生成代码
+         已完成代码的生成
+         SoftRenderer.vcxproj -> D:\Changda_SoftRenderer\Release\SoftRenderer.exe
+     1>已完成生成项目“D:\Changda_SoftRenderer\SoftRenderer\SoftRenderer.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:01.65
